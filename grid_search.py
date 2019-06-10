@@ -11,7 +11,7 @@ from statsmodels.tsa.statespace.sarimax import SARIMAX
 from sklearn.metrics import mean_squared_error
 from pandas import read_csv
 
-POPULATION_SIZE = 10
+POPULATION_SIZE = 50
 SELECT_FITTEST_PROBABILITY = 0.95
 MUTATION_PROBABILITY = 0.008
 CROSSOVER_PROBABILITY = 0.75
