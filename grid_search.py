@@ -188,7 +188,7 @@ def re_add_incumbent(p, incumbent):
     p.add(incumbent[0])
 
 
-def run(data, n_test, config_list, cfg_dict, max_generations, parallel=True):
+def run(data, n_test, config_list, cfg_dict, max_generations, parallel=False):
     p = sample(config_list, POPULATION_SIZE)
     print("initial scores")
     scores = grid_search(data, p, cfg_dict, n_test, parallel)
